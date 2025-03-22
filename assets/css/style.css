@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color:rgb(110, 7, 7);
+    margin:20px;
+    text-align: center;
+
+}
+
+/* Header */
+.container-fluid {
+    background-color: gray;
+    padding: 15px;
+}
+
+.navbar .btn-outline-success {
+    color: white;
+    border: 1px solid black;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #517691;
+    color: #fff;
+}
+
+h2 {
+    color: rgb(172, 26, 0);
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    font-size: medium;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(36, 173, 173);
+    text-align: right;
+    padding: 20px;
+    margin: 10px;
+}
+/*Index*/
+.index {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.carousel.slide {
+    margin: 10px;
+    padding: 10px;
+}    
+
+/*Nosotros*/
+.nosotros {
+    display: grid;
+}
+
+.nosotros1 {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+.nosotros2 {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    background-color: bisque;
+}
+
+.imgnos2 {
+    width: 100%;
+    height: auto;
+}
+/*Catálogo*/
+.catalogo {
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+    align-items: center;
+}
+
+.catalogo div {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tattoo1 {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    font-size: large;
+    text-align: auto;
+}
+
+.tattoo2 {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-display: right;
+    align-items: left;
+    text-align: auto;
+}
+
+.tattoo3 {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    font-size: large;
+    text-align: auto;
+}
+
+/*Sucursales*/
+.sucursales {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: inherit;
+}
+
+.caballito {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    object-position: center;
+}
+
+.devoto {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    object-position: center;
+}
+
+.moron {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    object-position: center;
+}
+
+/*Contacto*/
+.formulario {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Media query para mobile */
+@media (max-width: 576px) {
+    body {
+        background-color: #f8f9fa; /* Color de fondo para móviles */
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .text {
+        font-size: 14px; /* Tamaño de texto más pequeño */
+    }
+}
+
+/* Media query para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        background-color: #e9ecef; /* Color de fondo para tabletas */
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .text {
+        font-size: 16px; /* Ajuste del tamaño de texto */
+    }
+}
+
+/* Media query para desktop */
+@media (min-width: 769px) {
+    body {
+        background-color: #ffffff; /* Color de fondo para escritorios */
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .text {
+        font-size: 18px; /* Texto más grande en pantallas grandes */
+    }
+}
+
+
+
